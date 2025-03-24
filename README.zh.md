@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-135.0.7049.28-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-136.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-18.4-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop --> [![加入 Discord](https://img.shields.io/badge/join-discord-infomational)](https://aka.ms/playwright/discord)
 
-## [文档](https://playwright.dev) | [API 参考](https://playwright.dev/docs/api/class-playwright)
+## [文档](https://playwright.dev) | [API 参考](./docs/src.zh/api/class-playwright)
 
 Playwright 是一个用于 Web 测试和自动化的框架。它允许使用单一 API 测试 [Chromium](https://www.chromium.org/Home)、[Firefox](https://www.mozilla.org/en-US/firefox/new/) 和 [WebKit](https://webkit.org/)。Playwright 旨在实现跨浏览器的 Web 自动化，具有**常青特性**、**功能强大**、**可靠稳定**和**执行迅速**的特点。
 
@@ -12,7 +12,7 @@ Playwright 是一个用于 Web 测试和自动化的框架。它允许使用单�
 | WebKit <!-- GEN:webkit-version -->18.4<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Firefox <!-- GEN:firefox-version -->136.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-所有平台上的所有浏览器均支持无头执行。查看[系统要求](https://playwright.dev/docs/intro#system-requirements)了解详情。
+所有平台上的所有浏览器均支持无头执行。查看[系统要求](./docs/src.zh/intro#system-requirements)了解详情。
 
 寻找 [Python](https://playwright.dev/python/docs/intro)、[.NET](https://playwright.dev/dotnet/docs/intro) 或 [Java](https://playwright.dev/java/docs/intro) 版本的 Playwright？
 
@@ -43,10 +43,10 @@ npm i -D @playwright/test
 npx playwright install
 ```
 
-您可以选择只安装选定的浏览器，详情请参阅[安装浏览器](https://playwright.dev/docs/cli#install-browsers)。或者您可以完全不安装浏览器而使用现有的[浏览器通道](https://playwright.dev/docs/browsers)。
+您可以选择只安装选定的浏览器，详情请参阅[安装浏览器](./docs/src.zh/cli#install-browsers)。或者您可以完全不安装浏览器而使用现有的[浏览器通道](./docs/src.zh/browsers)。
 
-* [入门指南](https://playwright.dev/docs/intro)
-* [API 参考](https://playwright.dev/docs/api/class-playwright)
+* [入门指南](./docs/src.zh/intro)
+* [API 参考](./docs/src.zh/api/class-playwright)
 
 ## 功能特性
 
@@ -76,17 +76,17 @@ npx playwright install
 
 ### 强大工具
 
-**[代码生成](./docs/codegen)**。通过记录您的操作生成测试。将它们保存为任何语言。
+**[代码生成](./docs/src.zh/codegen)**。通过记录您的操作生成测试。将它们保存为任何语言。
 
-**[Playwright 检查器](https://playwright.dev/docs/inspector)**。检查页面、生成选择器、逐步执行测试、查看点击点并探索执行日志。
+**[Playwright 检查器](./docs/src.zh/inspector)**。检查页面、生成选择器、逐步执行测试、查看点击点并探索执行日志。
 
-**[跟踪查看器](https://playwright.dev/docs/trace-viewer)**。捕获所有信息以调查测试失败。Playwright 跟踪包含测试执行屏幕录制、实时 DOM 快照、操作浏览器、测试源码等。
+**[跟踪查看器](./docs/src.zh/trace-viewer)**。捕获所有信息以调查测试失败。Playwright 跟踪包含测试执行屏幕录制、实时 DOM 快照、操作浏览器、测试源码等。
 
-寻找适用于 [TypeScript](https://playwright.dev/docs/intro)、[JavaScript](https://playwright.dev/docs/intro)、[Python](https://playwright.dev/python/docs/intro)、[.NET](https://playwright.dev/dotnet/docs/intro) 或 [Java](https://playwright.dev/java/docs/intro) 的 Playwright？
+寻找适用于 [TypeScript](./docs/src.zh/intro)、[JavaScript](./docs/src.zh/intro)、[Python](https://playwright.dev/python/docs/intro)、[.NET](https://playwright.dev/dotnet/docs/intro) 或 [Java](https://playwright.dev/java/docs/intro) 的 Playwright？
 
 ## 示例
 
-要了解如何运行这些 Playwright Test 示例，请查看我们的[入门文档](https://playwright.dev/docs/intro)。
+要了解如何运行这些 Playwright Test 示例，请查看我们的[入门文档](./docs/src.zh/intro)。
 
 #### 页面截图
 
@@ -163,6 +163,6 @@ test('拦截网络请求', async ({ page }) => {
 ## 资源
 
 * [文档](https://playwright.dev)
-* [API 参考](https://playwright.dev/docs/api/class-playwright/)
+* [API 参考](./docs/src.zh/api/class-playwright/)
 * [贡献指南](CONTRIBUTING.md)
 * [更新日志](https://github.com/microsoft/playwright/releases) 
